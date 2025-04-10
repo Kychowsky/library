@@ -1,0 +1,46 @@
+.library-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.add-book {
+    width: 3rem;
+}
+
+
+
+.book-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels {
+    text-align: center;
+}
+
+.submit-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-box {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px groove #27A40F;
+    height: auto;
+    width: 20rem;
+}
